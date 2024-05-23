@@ -1,0 +1,220 @@
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0 auto; 
+    padding: 0;
+    font-weight: 400;
+    /* background-color: #007bff; */
+    background-image: linear-gradient(to bottom, #c5eff7,white); 
+}
+
+.Overview {
+    background-color: #faa79c; 
+}
+
+.Education-Details {
+    background-color: #E7E8D1; 
+    border: 2px;
+}
+
+.Projects {
+    background-color: #A7BEAE; 
+}
+
+.Achievements {
+    background-color: #ea98cc;
+    font-weight: bold;
+}
+
+.Contact-Details {
+    background-color: #d4f8f8; 
+    color: black;
+}
+
+.Thank-You{
+    color: #f7f7f7;
+    width: 100%;
+}
+/* Navigation styles */
+nav {
+    background-color: #036596;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+    transition: transform 0.3s ease; 
+}
+
+nav ul li div:hover {
+    background-color: red;
+}
+
+nav ul li a {
+    color: #01043b;
+    font-weight: bold;
+}
+
+/* Div styles */
+div {
+    padding: 20px;
+    margin: 20px auto; 
+    border-radius: 10px;
+    box-shadow: 0 0 10px #3232321a;
+    text-align: center; 
+    max-width: 1500px; 
+    transition: transform 0.3s ease; 
+}
+
+div:hover {
+    transform: scale(1.1); 
+}
+
+/* Header styles */
+header {
+    text-align: center;
+    margin-top: 50px;
+}
+
+header h1 {
+    font-size: 3em;
+    color: #333;
+}
+
+header h2 {
+    font-size: 2em;
+    color: #666;
+}
+
+/* Footer styles */
+footer {
+    background-color: #036596;
+    color: #fff;
+    padding-top: 20px ;
+    text-align: center;
+}
+
+/* Link styles */
+a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #0056b3;
+}
+
+/* Table styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #eee;
+}
+
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.survey-form {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+}
+/* Styling for form inputs */
+.survey-form input[type="text"],
+.survey-form input[type="number"],
+.survey-form input[type="email"],
+.survey-form select,
+.survey-form textarea {
+    width: 60%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+#captch{
+    width: 20%;
+}
+/* Styling for form label */
+.survey-form label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    /* display: block; */
+}
+/* Styling for the agree checkbox */
+.survey-form input[type="checkbox"] {
+    margin-right: 5px;
+    margin-top: 5px;
+}
+/* Styling for the submit button */
+.survey-form input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+/* Styling for the submit button on hover */
+.survey-form input[type="submit"]:hover {
+    background-color: #45a049;
+}
+@media (max-width: 768px) {
+    body {
+        padding: 10px; 
+    }
+    div {
+        padding: 10px; 
+        margin: 10px auto; 
+    }
+}
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 2.5em; 
+    }
+    header h2 {
+        font-size: 1.5em; 
+    }
+    nav ul li {
+        margin-right: 10px; 
+    }
+} 
+@media (min-width: 1200px) {
+    body {
+        font-size: 18px; 
+    }
+    div {
+        max-width: 1000px; 
+    }
+    header h1 {
+        font-size: 3.5em; 
+    }
+    header h2 {
+        font-size: 2.5em;
+    }
+    nav ul li {
+        margin-right: 25px; 
+    }
+}
+
